@@ -1,0 +1,83 @@
+.about_us_header_container {
+  background-color: #140f2d;
+  height: 400px;
+  color: white;
+  padding-left: 50px;
+}
+
+.about_us_header_title_location {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25.8px;
+  padding-top: 150px;
+}
+
+.about_us_header_title {
+  font-family: "Kufam";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62.4px;
+  margin-top: -10px;
+}
+
+.about_us_header_description {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 22px;
+  width: 1426px;
+  height: 113px;
+  margin-top: 18px;
+  line-height: 41.6px;
+}
+
+.aboust_us_header_registered {
+  text-decoration: underline;
+}
+
+
+/* media query mobile */
+
+@media screen and (max-width: 767px) {
+  .about_us_header_container {
+    width: auto;
+    height: 300px;
+    padding-top: 50px;
+    padding-right: 22px;
+    height: auto;
+    padding-left: 20px;
+    padding-bottom: 25px;
+
+  }
+
+  .about_us_header_title_location{
+    display: none;
+  }
+
+  .about_us_header_description{
+    text-wrap: wrap;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+  }
+
+}
+
+
+/* media query tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about_us_header_container{
+      width: auto;
+      height: auto;
+      margin-top: -90px;
+  }
+
+  .about_us_header_description{
+    text-wrap: wrap;
+    height: auto;
+    width: auto;
+    font-size: 20px;
+   padding-bottom: 20px;
+  }
+}

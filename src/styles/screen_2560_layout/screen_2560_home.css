@@ -1,0 +1,537 @@
+@media only screen and (min-width: 2560px) {
+  .home_article_card_skeleton_container {
+    height: 550px !important;
+    width: 1200px !important;
+    padding: 10px 10px 10px 10px;
+  }
+  .home_article_first_card_container {
+    height: 550px !important;
+  }
+  .home_article_card_skeleton_thumbnail {
+    height: 545px !important;
+  }
+  .home_article_card_thumbnail_container {
+    height: 545px !important;
+    width: 55% !important;
+  }
+  .home_article_card_details_skeleton_wrapper {
+    height: 545px !important;
+    width: 570px !important;
+  }
+  .home_article_card_details_wrapper {
+    height: 545px !important;
+    width: 45% !important;
+  }
+  .home_article_card_skeleton_title {
+    height: 120px !important;
+    width: 560px !important;
+  }
+  .home_article_card_title {
+    height: 120px !important;
+  }
+  .home_article_card_skeleton_subtitle {
+    height: 230px !important;
+    width: 560px !important;
+  }
+  .home_article_card_subtitle {
+    height: 280px !important;
+  }
+  .home_article_card_skeleton_author_details {
+    height: 50px !important;
+    width: 220px !important;
+  }
+  .home_article_card_author_details {
+    height: 50px !important;
+    width: 100px !important;
+  }
+  .home_article_card_skeleton_author_details_wrapper {
+    height: 50px !important;
+    width: 560px !important;
+  }
+  .home_article_card_author_details_wrapper {
+    height: 50px !important;
+  }
+  .home_article_card_skeleton_continue_read {
+    height: 50px !important;
+    width: 560px !important;
+  }
+  .home_article_card_continue_read {
+    height: 50px !important;
+  }
+
+  .home_article_card_skeleton_thumbnail {
+    height: 545px !important;
+    width: 500px !important;
+  }
+  .home_article_card_details_skeleton_wrapper {
+    height: 545px !important;
+    width: 350px !important;
+  }
+  .home_article_card_skeleton_title {
+    height: 120px !important;
+    width: 695px !important;
+  }
+  .home_article_card_skeleton_subtitle {
+    height: 230px !important;
+    width: 695px !important;
+  }
+  .home_article_card_skeleton_author_details {
+    height: 50px !important;
+    width: 280px !important;
+  }
+  .home_article_card_skeleton_author_details_wrapper {
+    height: 50px !important;
+    width: 695px !important;
+  }
+  .home_article_card_skeleton_continue_read {
+    height: 50px !important;
+    width: 695px !important;
+  }
+  .fact_check_middle_card_title_wrapper {
+    height: 220px !important;
+    gap: 10px;
+  }
+  .fact_check_middle_card_title_skeleton {
+    height: 60px !important;
+  }
+  .fact_check_middle_card_sub_title_skeleton {
+    height: 40px !important;
+  }
+
+  .square_skeleton {
+    width: 120px !important;
+    height: 40px !important;
+  }
+  .fact_check_middle_card_sub_title_wrapper {
+    height: 150px;
+    gap: 10px;
+  }
+  .home_slot_card_container {
+    height: 800px;
+    width: 600px;
+  }
+  .home_slot_card_image_skeleton {
+    border-radius: 1px 1px 10px 10px;
+  }
+  .home_slot_card_image_skeleton {
+    height: 300px !important;
+    width: 600px !important;
+  }
+  .home_slot_card_title_wrapper {
+    height: 130px !important;
+    width: 600px !important;
+  }
+  .home_slot_card_title_skeleton {
+    padding: 12px !important;
+  }
+  .home_slot_card_title_skeleton {
+    height: 120px !important;
+    width: 600px !important;
+  }
+
+  .home_slot_card_content_wrapper {
+    height: 170px !important;
+    width: 600px !important;
+  }
+
+  .home_slot_card_content_skeleton {
+    height: 170px !important;
+    width: 600px !important;
+    padding: 17px;
+  }
+  .home_slot_card_views_wrapper {
+    height: 120px !important;
+    width: 600px !important;
+    padding: 14px;
+  }
+  .home_slot_card_views_skeleton {
+    height: 52px !important;
+    width: 290px !important;
+  }
+  .home_slot_card_read_more_skeleton {
+    height: 50px !important;
+    width: 600px !important;
+  }
+  .home_article_title {
+    font-size: 35px;
+  }
+  .home_article_title_container {
+    height: 180px;
+  }
+  .home_article_title_text {
+    font-size: 63px;
+    font-weight: bold;
+  }
+  .title_text {
+    font-size: 25px;
+  }
+  .sub_title_text {
+    font-size: 21px;
+  }
+  .reading_icon {
+    font-size: 33px;
+  }
+  .view_icon {
+    font-size: 35px;
+  }
+  .continue_reading_text {
+    font-size: 25px;
+  }
+  .home_article_row_container {
+    height: 350px;
+  }
+  .home_article_trending_details_container {
+    height: 110px;
+  }
+  .home_article_trending_title_container {
+    height: 70px;
+  }
+  .home_trending_title_text {
+    font-size: 19px !important;
+  }
+  .inner_row_content {
+    width: 100%;
+  }
+
+  .exposing_fake_news_first_column_details {
+    height: 202px;
+  }
+  .home_article_second_column_details {
+    height: 130px;
+    width: 80%;
+  }
+  .exposing_fake_news_second_column_title {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .exposing_fake_news_second_column_sub_title {
+    font-size: 18px;
+  }
+  .exposing_fake_news_second_column_author_name {
+    font-size: 18px;
+  }
+  .exposing_fake_news_second_column_details {
+    width: 70px;
+    font-size: 18px;
+  }
+  /* .fact_check_continue_reading {
+    font-size: 18px;
+  } */
+  .exposing_fake_news_first_column_title {
+    font-size: 20px;
+  }
+  .exposing_fake_news_first_column_writer_name_and_views {
+    font-size: 19px;
+  }
+  .home_article_second_column_writer_name_and_views {
+    font-size: 25px;
+  }
+  .home_page_videos_thumbnail {
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .home_page_videos_text_content {
+    color: #fff;
+    font-size: large;
+  }
+  .home_page_videos_thumbnail_div {
+    width: 100%;
+  }
+  .home_videos_second_column_contents {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .home_videos_section_mobile_view {
+    display: none !important;
+  }
+  .become_member_content {
+    font-size: 40px !important;
+  }
+  .empower_truth_tag {
+    font-size: 90px !important;
+  }
+  .become_a_member_button {
+    font-size: 30px !important;
+    height: 80px !important;
+  }
+  .home_user_contribution_two_profile {
+    font-size: 23px !important;
+  }
+  .home_user_contribution_mobile_view_main_container {
+    display: none !important;
+  }
+
+  .home_slot_card_views_skeleton {
+    height: 52px !important;
+    width: 290px !important;
+  }
+  .home_slot_card_read_more_skeleton {
+    height: 35px !important;
+    width: 600px !important;
+    padding: 14px;
+  }
+  .signatory_logo {
+    width: 250px;
+    cursor: pointer;
+  }
+  .home_slot_and_logo_wrapper {
+    width: 95%;
+    height: 603px;
+  }
+  .slots_card_wrapper {
+    width: 100%;
+  }
+  .exposing_fake_news_third_column_title {
+    font-size: 20px;
+  }
+  .exposing_fake_news_third_column_name {
+    font-size: 19px;
+  }
+  .home_article_sec_column_inner_row_content {
+    width: 100%;
+  }
+
+  .home_article_row_wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home_fact_check_mobile_view_wrapper {
+    display: none !important;
+  }
+  .exposing_fake_news_button {
+    height: 60px;
+    width: 140px !important;
+  }
+  .user_contribute_stories_main_container {
+    grid-template-columns: 25% 43% 30% !important;
+  }
+  .user_contributed_story_container_image {
+    height: 420px !important;
+  }
+  .user_contributed_story_container {
+    height: 1000px !important;
+  }
+  .home_user_contribute_title {
+    font-size: 34px !important;
+  }
+  .home_user_contribute_subtitle {
+    font-size: 26px !important;
+    line-height: 36px;
+  }
+  .contribute_user_name,
+  .time-tag,
+  .user_contribute_publish_time,
+  .view-count-tag {
+    font-size: 20px !important;
+  }
+  .home_user_contribute_footer {
+    width: 150px !important;
+    max-width: 400px !important;
+  }
+  .reading-time-icon,
+  .view-count-icon {
+    width: 45px !important;
+  }
+
+  .home_user_contribution_two_image_box {
+    width: 350px !important;
+    height: 200px !important;
+  }
+  .home_user_contribution_two_title {
+    font-size: 25px !important;
+  }
+  .top_contributor_profile {
+    width: 100px !important;
+  }
+  .user_contributed_module_title {
+    font-size: 50px !important;
+  }
+  .top_contribute_title {
+    font-size: 35px !important;
+  }
+  .user_contributed_module_title {
+    height: 155px !important;
+  }
+  .become_member_content {
+    font-size: 40px !important;
+  }
+  .user_contributed_story_column_box {
+    padding: 60px !important;
+  }
+  .home_videos_subscribe_button {
+    background-color: #ef1d26;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .home_awards_card_image_overlay_text {
+    font-family: "Lato";
+    font-size: "20px";
+  }
+  .home_article_row_wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .donation_hash_text {
+    font-size: 80px !important;
+    font-weight: 800;
+  }
+  .donation_fight_against_text {
+    font-size: 45px !important;
+    font-weight: 800 !important;
+  }
+  .home_donatio_content {
+    font-size: 19px;
+  }
+  .home_article_second_column {
+    width: 52%;
+    height: 99.5%;
+  }
+  .hide_content_in_desktop {
+    display: none;
+  }
+
+  .slot_main_container {
+    width: 20%;
+    margin-top: 30px !important;
+    height: calc((850 / 2560) * 100vw) !important;
+  }
+  .slot_image_box {
+    height: 275px !important;
+  }
+  .slot_card_title {
+    font-size: 25px !important;
+  }
+  .slot_card_title_en {
+    font-size: 27px !important;
+  }
+  .slot_card_sub_title_en {
+    font-size: 22px !important;
+  }
+  .slot_card_sub_title {
+    font-size: 23px !important;
+    height: 240px !important;
+  }
+
+  .home_logo_and_container {
+    margin-top: 30px !important;
+    height: calc((850 / 2560) * 100vw) !important;
+  }
+  .home_slot_description {
+    font-size: 35px !important;
+  }
+  .home_slot_youturn_present_title {
+    font-size: 30px !important;
+  }
+  .home_slot_title {
+    font-size: 75px !important;
+  }
+  .home_user_contribution_image {
+    width: 300px !important;
+  }
+  .home_user_contribution_second_card_container {
+    justify-content: space-between !important;
+  }
+  .home_user_contribution_image {
+    width: 310px !important;
+  }
+  .home_donation_container {
+    height: 200px;
+  }
+  .donate_amt_content_text {
+    font-size: 19px;
+  }
+
+  .donate_inr_text {
+    font-size: 19px;
+  }
+  .badge_default {
+    height: 45px;
+    width: 85px;
+    font-size: 19px;
+  }
+  .home_donate_button {
+    width: 200px;
+    font-size: 19px;
+    height: 70px;
+  }
+  .home_donate_button_disabled {
+    width: 200px;
+    font-size: 19px;
+    height: 70px;
+  }
+  .badge_selected {
+    height: 45px;
+    width: 85px;
+    font-size: 19px;
+  }
+  .home_donation_first_column_container {
+    width: 23%;
+  }
+  .home_donation_second_column_container {
+    width: 28%;
+  }
+  .home_donation_third_column_container {
+    width: 33%;
+    justify-content: flex-end;
+  }
+  .home_donation_fourth_column_container {
+    width: 14%;
+  }
+  .home_donation_third_column_wrapper {
+    width: 90%;
+    height: 70%;
+  }
+  .home_videos_second_column_overlay_play_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home_donation_second_column_container {
+    width: 28%;
+  }
+  .home_donation_third_column_container {
+    width: 33%;
+    justify-content: flex-end;
+  }
+  .home_donation_fourth_column_container {
+    width: 14%;
+  }
+  .home_donation_third_column_wrapper {
+    width: 90%;
+    height: 70%;
+  }
+  .home_donation_input_wrapper {
+    width: 75%;
+  }
+  .home_donation_input {
+    width: 100px !important;
+  }
+  .home_article_card_author_name_container {
+    height: 50px !important;
+    width: 300px !important;
+  }
+  .home_slots_background_container {
+    height: 500px !important;
+  }
+  .home_slots_background_image_container {
+    margin-top: 500px !important;
+  }
+}

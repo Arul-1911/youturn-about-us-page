@@ -1,0 +1,509 @@
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .home_article_card_skeleton_container {
+    height: 300px !important;
+    width: 650px !important;
+    padding: 8px 8px 8px 8px;
+  }
+  .home_article_first_card_container {
+    height: 300px !important;
+  }
+  .home_article_card_skeleton_thumbnail {
+    height: 298px !important;
+    width: 350px !important;
+  }
+  .home_article_card_thumbnail_container {
+    height: 298px !important;
+    width: 55% !important;
+  }
+  .home_article_card_details_skeleton_wrapper {
+    height: 300px !important;
+    width: 270px !important;
+  }
+  .home_article_card_details_wrapper {
+    height: 298px !important;
+    width: 45% !important;
+  }
+  .home_article_card_skeleton_title {
+    height: 80px !important;
+    width: 290px !important;
+  }
+  .home_article_card_title {
+    height: 65px !important;
+  }
+  .home_article_card_skeleton_subtitle {
+    height: 115px !important;
+    width: 290px !important;
+  }
+  .home_article_card_subtitle {
+    height: 150px !important;
+  }
+  .home_article_card_skeleton_author_details {
+    height: 20px !important;
+    width: 120px !important;
+  }
+  .home_article_card_author_details {
+    height: 20px !important;
+    width: 65px !important;
+  }
+  .home_article_card_skeleton_author_details_wrapper {
+    height: 15px !important;
+    width: 290px !important;
+  }
+  .home_article_card_author_details_wrapper {
+    height: 15px !important;
+  }
+  .home_article_card_skeleton_continue_read {
+    height: 20px !important;
+    width: 290px !important;
+  }
+  .home_article_card_continue_read {
+    height: 20px !important;
+  }
+
+  .exposing_fake_news_second_column_image {
+    width: 100%;
+  }
+  .fact_check_middle_card_container {
+    width: 330px;
+    height: 480px;
+  }
+  .fact_check_middle_card_image {
+    height: 170px !important;
+  }
+  .fact_check_middle_card_title_wrapper {
+    height: 90px !important;
+    gap: 10px;
+  }
+  .fact_check_middle_card_title_skeleton {
+    height: 28px !important;
+  }
+  .fact_check_middle_card_sub_title_skeleton {
+    height: 20px !important;
+  }
+  .fact_check_middle_card_details_container {
+    height: 80px;
+  }
+  /* .exposing_fake_news_details_wrapper {
+    height: 80px;
+  } */
+  .square_skeleton {
+    width: 60px !important;
+    height: 20px !important;
+  }
+  .fact_check_middle_card_sub_title_wrapper {
+    height: 100px;
+    gap: 10px;
+  }
+  /* .home_slot_card_container {
+    height: 650px;
+    width: 450px;
+  } */
+  .home_slot_card_container {
+    height: 620px;
+    width: 33%;
+
+    border-radius: 1px 1px 10px 10px;
+  }
+
+  .home_slot_card_image_skeleton {
+    height: 230px !important;
+    width: 450px !important;
+  }
+  .home_slot_card_title_wrapper {
+    height: 100px !important;
+    width: 450px !important;
+    padding: 12px;
+  }
+
+  .home_slot_card_title_skeleton {
+    height: 100px !important;
+    width: 450px !important;
+    padding: 10px !important;
+  }
+
+  .home_slot_card_content_wrapper {
+    height: 150px !important;
+    width: 450px !important;
+    padding: 10px;
+  }
+
+  .home_slot_card_content_skeleton {
+    height: 140px !important;
+    width: 450px !important;
+    font-size: 8px;
+  }
+  .home_slot_card_views_wrapper {
+    height: 65px !important;
+    width: 450px !important;
+    padding: 10px;
+  }
+  .home_slot_card_views_skeleton {
+    height: 45px !important;
+    width: 220px !important;
+  }
+  .home_slot_card_read_more_skeleton {
+    height: 40px !important;
+    width: 450px !important;
+  }
+
+  .inner_row_content {
+    width: 100%;
+  }
+
+  .exposing_fake_news_first_column_details {
+    height: 150px;
+  }
+  .home_article_second_column_details {
+    height: 130px;
+    width: 80%;
+  }
+
+  .exposing_fake_news_second_column_title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .exposing_fake_news_second_column_author_name {
+    font-size: 13px;
+  }
+
+  .home_page_videos_thumbnail {
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .home_page_videos_text_content {
+    color: #fff;
+    font-size: large;
+  }
+  .home_videos_second_column_contents {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .home_videos_section_mobile_view {
+    display: none !important;
+  }
+  .home_user_contribution_two_image_box {
+    width: 215px !important;
+    height: 125px !important;
+    object-fit: contain !important;
+  }
+  .home_user_contribute_title {
+    font-size: 18px !important;
+  }
+  .home_user_contribute_subtitle,
+  .user_contribute_publish_time,
+  .time-tag,
+  .view-count-tag,
+  .contribute_user_name {
+    font-size: 13px !important;
+  }
+  .view-count-icon,
+  .reading-time-icon {
+    width: 15px !important;
+  }
+  .user_contributed_story_container_image {
+    height: 250px !important;
+  }
+
+  .home_user_contribution_two_profile {
+    font-size: 13px !important;
+  }
+  .empower_truth_tag {
+    font-size: 45px !important;
+  }
+  .home_user_contribution_mobile_view_main_container {
+    display: none !important;
+  }
+  .home_slot_card_views_skeleton {
+    height: 45px !important;
+    width: 220px !important;
+  }
+  .home_slot_card_read_more_skeleton {
+    height: 30px !important;
+    width: 450px !important;
+    padding: 10px;
+  }
+  .signatory_logo {
+    width: 160px;
+    cursor: pointer;
+  }
+
+  .home_slot_and_logo_wrapper {
+    width: 94%;
+    height: 425px;
+  }
+  .home_logo_and_container {
+    height: 560px;
+  }
+
+  .logo_content {
+    height: 50%;
+  }
+
+  .logo_content_container {
+    height: 100%;
+    justify-content: flex-start !important;
+    padding-top: 0px !important ;
+  }
+
+  .home_ifcn_logo_and_content {
+    height: 560px;
+  }
+  .hide_content_in_desktop {
+    display: none;
+  }
+  .exposing_fake_news_third_column_title {
+    font-size: 15px;
+  }
+  .exposing_fake_news_third_column_name {
+    font-size: 14px;
+  }
+  .home_article_title_container {
+    height: 90px;
+  }
+  .home_article_title {
+    font-size: 19px;
+  }
+  .home_article_title_text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sub_title_text {
+    font-size: 12px;
+  }
+
+  .home_article_row_container {
+    height: 230px;
+  }
+
+  .home_article_trending_title_container {
+    height: 40px;
+  }
+  .home_trending_title_text {
+    font-size: 12px !important;
+  }
+  .exposing_fake_news_second_column_details {
+    width: 60px;
+    font-size: 15px;
+  }
+  .home_article_row_wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home_fact_check_mobile_view_wrapper {
+    display: none !important;
+  }
+  .exposing_fake_news_button {
+    height: 50px;
+    width: 140px !important;
+  }
+  .home_user_contribution_two_title {
+    font-size: 14px !important;
+  }
+  .user_contributed_module_title {
+    font-size: 30px !important;
+  }
+  .home_videos_subscribe_button {
+    background-color: #ef1d26;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .home_awards_card_image_overlay_text {
+    font-family: "Lato";
+    font-size: medium;
+  }
+  .home_article_title_text {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .title_text {
+    font-size: 14px !important;
+  }
+
+  .continue_reading_text {
+    font-size: 12px;
+  }
+  .home_article_trending_details_container {
+    height: 65px;
+  }
+  .home_article_trending_container {
+    height: 200px;
+  }
+  .home_article_trending_title_container {
+    height: 40px;
+  }
+  .home_trending_title_text {
+    font-size: 12px !important;
+  }
+  .exposing_fake_news_second_column_details {
+    width: 60px;
+    font-size: 15px;
+  }
+  .home_article_row_wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .donation_hash_text {
+    font-size: 70px !important;
+    font-weight: 800;
+  }
+  .donation_fight_against_text {
+    font-size: 33px !important;
+    font-weight: 800 !important;
+  }
+  .home_donatio_content {
+    font-size: 15px;
+  }
+  .home_article_second_column {
+    width: 52%;
+    height: 99.5%;
+  }
+
+  .slot_main_container {
+    width: 22%;
+    height: calc((850 / 2560) * 100vw) !important;
+    margin-top: 2%;
+  }
+  .home_logo_and_container {
+    height: calc((850 / 2560) * 100vw) !important;
+    margin-top: 2%;
+  }
+  .home_slots_background_container {
+    height: 20rem !important;
+  }
+  .slot_image_box {
+    height: 190px !important;
+  }
+  .slot_card_title {
+    font-size: 17px !important;
+  }
+  .slot_card_title_en {
+    font-size: 17px !important;
+  }
+  .slot_card_sub_title_en {
+    font-size: calc(27vw / 40) !important;
+    height: 140px !important;
+    line-height: 21px;
+  }
+  .slot_card_sub_title {
+    font-size: 13px !important;
+    height: 140px !important;
+  }
+  .slot_card_details {
+    padding: 10px !important;
+  }
+  .home_slot_youturn_present_title {
+    font-size: 20px !important;
+  }
+  .home_slot_title {
+    font-size: 50px !important;
+  }
+  .home_slot_description {
+    font-size: 18px !important;
+  }
+  .home_slots_background_image_container {
+    margin-top: 20rem !important;
+  }
+  .home_user_contribution_image {
+    width: 250px;
+  }
+  .home_user_contribution_second_card_container {
+    height: 100% !important;
+  }
+  .home_donation_container {
+    height: 160px;
+  }
+  .donate_amt_content_text {
+    font-size: 15px;
+  }
+  .donate_inr_text {
+    font-size: 15px;
+  }
+  .badge_default {
+    height: 35px;
+    width: 65px;
+    font-size: 15px;
+  }
+  .home_donate_button {
+    width: 160px;
+    font-size: 15px;
+    height: 50px;
+  }
+  .home_donate_button_disabled {
+    width: 160px;
+    font-size: 15px;
+    height: 50px;
+  }
+  .badge_selected {
+    height: 35px;
+    width: 65px;
+    font-size: 15px;
+  }
+  .home_donation_first_column_container {
+    width: 23%;
+  }
+  .home_donation_second_column_container {
+    width: 28%;
+  }
+  .home_donation_third_column_container {
+    width: 33%;
+    justify-content: flex-end;
+  }
+  .home_donation_fourth_column_container {
+    width: 14%;
+  }
+  .home_donation_third_column_wrapper {
+    width: 90%;
+    height: 70%;
+  }
+  .home_videos_second_column_overlay_play_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home_donation_first_column_container {
+    width: 23%;
+  }
+  .home_donation_second_column_container {
+    width: 28%;
+  }
+  .home_donation_third_column_container {
+    width: 33%;
+    justify-content: flex-end;
+  }
+  .home_donation_fourth_column_container {
+    width: 14%;
+  }
+  .home_donation_third_column_wrapper {
+    width: 90%;
+    height: 70%;
+  }
+  .home_donation_input_wrapper {
+    width: 75%;
+  }
+  .home_donation_input {
+    width: 30px !important;
+  }
+  .home_article_card_author_name_container {
+    height: 20px !important;
+    width: 190px !important;
+  }
+}

@@ -1,0 +1,96 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .user_layout_container {
+    width: 98%;
+    height: 60px;
+    position: relative;
+  }
+
+  .user_layout_logo_container {
+    width: calc(100% - 100px);
+    position: absolute;
+    left: 50px;
+  }
+
+  .user_layout_search_container {
+    width: 50px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .user_layout_menu_container {
+    width: 500px;
+    display: none !important;
+  }
+
+  .user_layout_drawer_container {
+    width: 50px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .non-mobile_screen {
+    display: none !important;
+  }
+
+  .user_layout_logo {
+    width: 200px !important;
+    height: 50px !important;
+  }
+
+  .drawer_menu_icon {
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .search_mobile_icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .drawer_menu_container {
+    height: 400px;
+    width: 100%;
+  }
+  .header_drawer_social_media_container {
+    height: 60px;
+  }
+  .header_drawer_social_media_wrapper {
+    width: 80%;
+    height: 60px;
+  }
+  .header_drawer_social_small_wrapper {
+    width: 34%;
+    height: 60px;
+  }
+
+  .user_layout_menus {
+    font-size: 18px;
+  }
+  .drawer_user_detail_container {
+    height: 40px;
+    justify-content: flex-start;
+  }
+  .drawer_welcome_container {
+    width: 50px;
+  }
+  .drawer_user_name_text {
+    font-size: 18px;
+  }
+  .drawer_user_profile_container {
+    width: 50px;
+    height: 100%;
+  }
+  .User_login_button_container {
+    height: 80px !important;
+  }
+  .quick_access_container {
+    display: none !important;
+  }
+  .user_contribute_stories_main_container {
+    grid-template-columns: 30% 30% 30% !important;
+  }
+  .footer_mobile_view_container {
+    display: none !important;
+  }
+  .header_drawer_language_text {
+    font-size: 18px;
+  }
+}

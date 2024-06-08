@@ -1,0 +1,16 @@
+// node_modules
+// bower_components
+// npm-debug.log
+// bin/
+// obj/
+// Attachments
+// .*
+// !.env
+// !default.env
+// !/.gitignore
+// !.babelrc
+// !.prettierrc
+// !.eslintrc.json
+// dist/
+// build/
+// hosting/

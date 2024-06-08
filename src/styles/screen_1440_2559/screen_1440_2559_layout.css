@@ -1,0 +1,98 @@
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .user_layout_container {
+    width: 98%;
+    height: 80px;
+  }
+  .user_layout_logo_container {
+    width: 300px;
+  }
+  .user_layout_search_container {
+    width: calc(100% - 1050px);
+    justify-content: flex-start !important;
+  }
+
+  .user_layout_menu_container {
+    width: 700px;
+  }
+
+  .user_layout_drawer_container {
+    width: 50px;
+  }
+
+  .mobile_screen {
+    display: none !important;
+  }
+
+  .user_layout_logo {
+    width: 220px !important;
+    height: 70px;
+  }
+
+  .user_layout_menus {
+    font-size: 20px;
+  }
+
+  .user_layout_header {
+    height: 100px !important;
+  }
+  .user_layout_search_input {
+    height: 37px;
+    max-width: 500px;
+  }
+
+  .drawer_menu_icon {
+    width: 25px !important ;
+    height: 25px !important;
+  }
+  .search_mobile_icon_container {
+    display: none !important;
+  }
+  .drawer_menu_container {
+    height: 415px;
+    width: 100%;
+  }
+  .User_login_button_container {
+    height: 50px;
+  }
+
+  .drawer_user_detail_container {
+    height: 40px;
+    justify-content: flex-end;
+  }
+  .drawer_user_profile_container {
+    width: 35px;
+    height: 100%;
+  }
+  .drawer_welcome_container {
+    width: 47px !important;
+  }
+  .drawer_user_name_container {
+    width: 180px;
+  }
+  .drawer_line {
+    width: 80%;
+  }
+  .header_search_icon {
+    font-size: 20px;
+  }
+  .header_drawer_social_media_container {
+    height: 60px;
+  }
+  .header_drawer_social_media_wrapper {
+    width: 60%;
+    height: 60px;
+  }
+  .header_drawer_social_small_wrapper {
+    width: 24%;
+    height: 60px;
+  }
+  .drawer_user_name_text {
+    font-size: 18px;
+  }
+  .footer_mobile_view_container {
+    display: none !important;
+  }
+  .mobile_header_drawer_theme {
+    display: none !important;
+  }
+}

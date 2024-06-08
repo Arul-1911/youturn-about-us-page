@@ -1,0 +1,132 @@
+.about_us_our_mission_container {
+  height: 591px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+}
+
+
+.about_us_our_mission_first_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_us_our_mission_youturn_logo {
+  width: 740px;
+  height: 212px;
+  margin-top: 88px;
+}
+
+.about_us_our_mission_second_row {
+  margin-top: 20px;
+}
+.about_us_our_mission_logo_description {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 18px;
+  color: #0065cc;
+}
+
+.about_us_our_mission_first_column{
+  padding: 0px 20px;
+}
+
+.about_us_our_mission_second_column {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.about_us_our_mission_second_column_header {
+  margin-top: 20px;
+  font-family: "Kufam";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+}
+
+.about_us_our_mission_second_column_paragraph {
+  margin-top: 20px;
+  padding-right:15px ;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+ height: auto;
+}
+
+/* media query mobile */
+
+@media screen and (max-width: 767px) {
+  .about_us_our_mission_container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about_us_our_mission_first_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-wrap: wrap;
+    margin-top: -80px;
+  }
+
+  .about_us_our_mission_logo_description {
+    padding: 16px;
+    margin-top: -50px;
+  }
+
+  .about_us_our_mission_youturn_logo {
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+  }
+
+  .about_us_our_mission_second_column{
+    justify-content: center;
+  }
+
+  .about_us_our_mission_second_column_header{
+    padding-left: 10px;
+  }
+
+  .about_us_our_mission_second_column_paragraph{
+    text-wrap: wrap;
+    width: auto;
+    padding: 14px;
+  }
+}
+
+
+/* media query tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .about_us_our_mission_container{
+    gap: 15px;
+    flex-direction: column;
+  }
+
+  .about_us_our_mission_youturn_logo{
+    width: 400px;
+    height: 250px;
+    object-fit: contain;
+    margin-top: -40px;
+  }
+
+  .about_us_our_mission_second_column_paragraph{
+    text-wrap: wrap;
+    padding: 20px;
+  }
+
+  .about_us_our_mission_logo_description{
+    margin-top: -50px;
+  }
+
+  .about_us_our_mission_second_column_header{
+    padding-left: 15px;
+  }
+
+}

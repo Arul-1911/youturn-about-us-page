@@ -1,0 +1,116 @@
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .user_layout_container {
+    width: 98%;
+    height: 50px;
+    position: relative;
+  }
+
+  .user_layout_logo_container {
+    width: calc(100% - 100px);
+    position: absolute;
+    left: 50px;
+  }
+  .user_layout_search_container {
+    width: 50px;
+    position: absolute;
+    right: 0px;
+  }
+  .user_layout_menu_container {
+    display: none !important;
+  }
+
+  .user_layout_drawer_container {
+    width: 50px;
+    position: absolute;
+    left: 0px;
+  }
+
+  .non-mobile_screen {
+    display: none !important;
+  }
+
+  .user_layout_logo {
+    width: 150px !important;
+    height: 50px !important;
+  }
+
+  .drawer_menu_icon {
+    height: 25px !important;
+    width: 25px !important;
+  }
+
+  .search_mobile_icon {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .header_drawer {
+    width: 300px !important;
+  }
+  .drawer_menu_container {
+    height: 400px;
+    width: 100%;
+  }
+  .ant-drawer-mask {
+    background: none !important;
+  }
+  .drawer_user_detail_container {
+    height: 40px;
+    justify-content: flex-start;
+  }
+  .User_login_button_container {
+    height: 70px;
+  }
+  .drawer_line {
+    width: 90%;
+  }
+  .header_drawer_social_media_container {
+    height: 60px;
+  }
+  .header_drawer_social_media_wrapper {
+    width: 80%;
+    height: 60px;
+  }
+  .header_drawer_social_small_wrapper {
+    margin-top: 10px;
+    width: 34%;
+    height: 60px;
+  }
+  .user_layout_menus {
+    font-size: 18px;
+  }
+  .User_login_button {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .quick_access_container {
+    display: none !important;
+  }
+  .user_contribute_stories_main_container {
+    grid-template-columns: 30% 30% 30% !important;
+  }
+  .image_box {
+    width: 45px !important;
+  }
+  .social_media_tag {
+    font-size: 25px !important;
+  }
+  .social_media_container {
+    align-items: center !important;
+  }
+  .footer_third_column_image_container {
+    gap: 25px !important;
+  }
+  .footer_main_container {
+    display: none !important;
+  }
+  .quick_access_mobile_container{
+    width: 50%;
+  }
+  .footer_first_column_signatory_image_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+}

@@ -1,0 +1,314 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .home_article_card_skeleton_container {
+    display: none !important;
+  }
+
+  .home_slot_card_container {
+    display: none !important;
+  }
+  .home_page_videos_thumbnail {
+    width: 100% !important;
+
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .home_page_videos_text_content {
+    color: #fff;
+    font-size: large;
+  }
+  .home_page_videos_thumbnail_div {
+    width: 100%;
+  }
+  .home_videos_second_column_contents {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+  }
+  .home_videos_second_column_image {
+    width: 95%;
+    border: 1.5px solid rgb(231, 231, 231);
+    border-radius: 10px;
+    object-fit: "cover";
+  }
+  .home_videos_viewed_count_and_published_div {
+    display: flex;
+    align-items: flex-start;
+  }
+  .home_videos_section_mobile_view {
+    display: none !important;
+  }
+  .become_member_content {
+    font-size: 15px !important;
+  }
+  .home_user_contribution_two_image_box {
+    width: 200px !important;
+    height: 134px !important;
+  }
+  .user_contribute_stories_main_container {
+    display: none !important;
+  }
+  .exposing_fake_news_container {
+    display: none;
+  }
+
+  .exposing_fake_news_mobile_view_title {
+    font-size: 15px !important;
+    font-weight: 700;
+  }
+  .exposing_fake_news_divider_container {
+    display: none;
+  }
+  .exposing_fake_news_first_column_details_mobile_view {
+    height: 105px;
+  }
+  .exposing_fake_news_first_column_writer_name_and_views {
+    font-size: 12px;
+  }
+  .exposing_fake_news_first_column_button {
+    width: 90px;
+    height: 25px;
+    font-size: 11px;
+  }
+
+  .home_article_row_wrapper {
+    flex-direction: column;
+    align-items: center;
+    height: auto !important;
+    gap: 20px;
+  }
+
+  .home_article_trending_details_container {
+    height: 60px;
+  }
+  .home_trending_title_text {
+    font-size: 10px !important;
+  }
+
+  .home_article_row_container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .user_contributed_story_column_container {
+    border-radius: 0px !important;
+  }
+  .user_contributed_story_column_box {
+    gap: 20px;
+  }
+  .home_videos_subscribe_button {
+    background-color: #ef1d26;
+    color: #fff;
+    border-radius: 10px;
+    width: 50%;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .home_awards_card_image_overlay_text {
+    font-family: "Lato";
+    font-size: medium;
+  }
+
+  .home_article_trending_container {
+    width: 100%;
+    gap: 10px;
+  }
+  .home_article_trending_details_container {
+    height: 100px;
+  }
+  .home_trending_title_text {
+    font-size: 15px !important;
+  }
+
+  .home_article_trending_title_container {
+    height: 70px;
+  }
+
+  .home_article_second_column_writer_name_and_views {
+    font-size: 12px;
+  }
+  .home_article_first_column {
+    display: none !important;
+  }
+  .home_article_second_column_details {
+    width: 80%;
+
+    height: 100px;
+  }
+  .home_article_sec_column_inner_row_content {
+    margin-bottom: 20px;
+  }
+
+  .slots_card_wrapper {
+    display: none;
+  }
+  .home_carousel_card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: "5px";
+    padding: 2%;
+  }
+  .home_logo_and_container {
+    display: none;
+  }
+  .slot_card_title {
+    font-size: 20px !important;
+  }
+  .slot_card_title_en {
+    padding: 20px;
+    font-size: 18px !important;
+  }
+  .home_carousel_card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: "5px";
+    padding: 2%;
+  }
+  .home_logo_and_container {
+    display: none;
+  }
+  .exposing_fake_news_mobile_view_author_name {
+    font-size: 14px !important;
+  }
+  .home_donation_wrapper {
+    flex-direction: column;
+  }
+  .home_donation_first_column_container {
+    width: 100%;
+  }
+  .donation_fight_against_text {
+    font-size: 52px !important;
+    font-weight: 800 !important;
+  }
+  .donation_hash_text {
+    font-size: 60px !important;
+    font-weight: 800;
+  }
+  .home_donation_third_column_container {
+    justify-content: center;
+    height: 100px;
+  }
+
+  .home_donation_fourth_column_container {
+    height: 88px;
+  }
+  .home_donation_third_column_wrapper {
+    width: 95%;
+    height: 120%;
+    justify-content: space-between;
+  }
+  .home_donate_button {
+    width: 95%;
+    height: 38px;
+    font-size: 15px;
+  }
+
+  .home_donatio_content {
+    font-size: 20px;
+  }
+
+  .badge_default {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+  }
+  .badge_selected {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+  }
+  .home_donation_input_wrapper {
+    width: 100%;
+  }
+  .home_donation_third_column_wrapper {
+    width: 90%;
+    height: 90%;
+    justify-content: space-between;
+    /* background-color: orange; */
+  }
+  .home_donate_button {
+    width: 90%;
+    height: 30px;
+    font-size: 15px;
+  }
+  .featured_fact_check_button {
+    width: 90px;
+    height: 25px;
+    font-size: 11px;
+  }
+  .home_videos_second_column_overlay_play_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .user_contribution_mobile_card_container {
+    width: 250px;
+    border-radius: 10px !important;
+    box-shadow: var(--border-shadow);
+    min-height: 280px;
+    max-height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+  }
+  .home_donation_third_column_container {
+    justify-content: center;
+    height: 120px;
+  }
+  .home_donation_fourth_column_container {
+    height: 88px;
+  }
+  .home_donation_third_column_wrapper {
+    width: 95%;
+    height: 120%;
+    justify-content: space-between;
+  }
+  .home_donate_button {
+    width: 95%;
+    height: 38px;
+    font-size: 15px;
+  }
+  .home_donatio_content {
+    font-size: 20px;
+  }
+
+  .badge_default {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+  }
+  .badge_selected {
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+  }
+  .home_donation_input_wrapper {
+    width: 100%;
+  }
+  .donate_amt_content_text {
+    font-size: 25px;
+  }
+  .donate_inr_text {
+    font-size: 20px;
+  }
+  .home_donate_button_disabled {
+    width: 95%;
+    height: 38px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Kufam";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/Kufam-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kufam-italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/Kufam-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lato_Bold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/Lato-Bold.ttf") format("truetype");
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+ul,
+li {
+  padding: 0px;
+}
+.main-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+:root {
+  --background-theme-color: #140f2d !important;
+  --become-member-button: #0d99ff !important;
+  --tag-color: #f49d36 !important;
+  --border-shadow: 10px 10px 10px rgba(0, 101, 204, 0.1);
+  --view-icon-color: #ea1f1f;
+  --gradient-color: linear-gradient(147.32deg, #140f2d 40.85%, #f49d36 169.52%);
+  --subtitle-color: #808080;
+  --image-hover-transform: scale(1.1) !important;
+  --image-hover-transition: transform 0.8s ease-in-out !important;
+}
+@import url("screen_767/screen_767_layout.css");
+@import url("screen_768_1023/screen_768_1023.layout.css");
+@import url("screen_1024_1439/screen_1024_1439_layout.css");
+@import url("screen_1440_2559/screen_1440_2559_layout.css");
+@import url("screen_2560_layout/screen_2560_layout.css");
+@import url("layout/user_layout.css");
+@import url("screen_1024_1439/screen_1024_1439_home.css");
+@import url("layout/user_home.css");
+@import url("screen_768_1023/screen_768_1023_home.css");
+@import url("screen_767/screen_767_home.css");
+@import url("screen_1440_2559/screen_1440_2559_home.css");
+@import url("screen_2560_layout/screen_2560_home.css");

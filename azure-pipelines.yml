@@ -1,0 +1,83 @@
+trigger:
+  branches:
+    include:
+      - dev
+      - sit
+
+pool:
+  vmImage: "ubuntu-latest"
+
+variables:
+  imageNameDev: "vertace/youturn-web"
+  imageNameSit: "vertace/youturn-sit-web"
+  containerNameDev: "youturn-web-dev"
+  containerNameSit: "youturn-sit-web"
+  devPort: 5061
+  sitPort: 5062
+  imageTag: $(Build.BuildId)
+  devAPIBaseUrl: "https://dev.vertace.org/youturn/api/dev/graphql"
+  sitAPIBaseUrl: "https://dev.vertace.org/youturn-sit/api/dev/graphql"
+  devWebUrl: "https://youturn.vertace.org/"
+  sitWebUrl: "https://youturn-sit.vertace.org/"
+  devEnWebUrl: "https://en.youturn.vertace.org/"
+  sitEnWebUrl: "https://en.youturn-sit.vertace.org/"
+
+steps:
+  - checkout: self
+
+  - task: Docker@2
+    displayName: "Login to Docker Hub"
+    inputs:
+      command: login
+      containerRegistry: DockerHubConnection # Use the name of your Docker service connection
+
+  - script: |
+      if [ "$(Build.SourceBranch)" == "refs/heads/dev" ]; then
+          echo "Pipeline triggered from dev branch"
+          docker build --build-arg REACT_APP_API_BASE_URL=$(devAPIBaseUrl) --build-arg REACT_APP_WEB_URL=$(devWebUrl) --build-arg REACT_APP_EN_WEB_URL=$(devEnWebUrl) . -t $(imageNameDev):$(imageTag)
+          echo "Setting DOCKER_LOGS to debug"
+          export DOCKER_LOGS=debug
+          docker push $(imageNameDev):$(imageTag)
+      elif [ "$(Build.SourceBranch)" == "refs/heads/sit" ]; then
+          echo "Pipeline triggered from sit branch"
+          docker build --build-arg REACT_APP_API_BASE_URL=$(sitAPIBaseUrl) --build-arg REACT_APP_WEB_URL=$(sitWebUrl) --build-arg REACT_APP_EN_WEB_URL=$(sitEnWebUrl) . -t $(imageNameSit):$(imageTag)
+          echo "Setting DOCKER_LOGS to debug"
+          export DOCKER_LOGS=debug
+          docker push $(imageNameSit):$(imageTag)
+      else
+          echo "Pipeline triggered from a different branch"
+          # Your actions for other branches
+      fi
+    displayName: "Build and Push Docker Image"
+
+  # Deployment to the remote server
+  - task: SSH@0
+    displayName: "Deploy youturn-web Service"
+    inputs:
+      sshEndpoint: NaduvanTechDevServer # Your SSH service connection name
+      runOptions: "inline"
+      inline: |
+        if [ "$(Build.SourceBranch)" == "refs/heads/dev" ]; then
+            # Pull the latest image
+            docker pull $(imageNameDev):$(imageTag)
+            
+            # Stop and remove the existing container if it exists
+            docker stop $(containerNameDev) || true
+            docker rm $(containerNameDev) || true
+
+            # Run the new container with the specified environment variables and port mapping
+            docker run -d --name $(containerNameDev) -p $(devPort):80 -e REACT_APP_API_BASE_URL=$(devAPIBaseUrl) $(imageNameDev):$(imageTag)
+        elif [ "$(Build.SourceBranch)" == "refs/heads/sit" ]; then
+            # Pull the latest image
+            docker pull $(imageNameSit):$(imageTag)
+            
+            # Stop and remove the existing container if it exists
+            docker stop $(containerNameSit) || true
+            docker rm $(containerNameSit) || true
+
+            # Run the new container with the specified environment variables and port mapping
+            docker run -d --name $(containerNameSit) -p $(sitPort):80 -e REACT_APP_API_BASE_URL=$(sitAPIBaseUrl) $(imageNameSit):$(imageTag)
+        else
+            echo "Pipeline triggered from a different branch"
+            # Your actions for other branches
+        fi

@@ -1,0 +1,10 @@
+version: "3.1"
+
+services:
+  docy-web:
+    image: vertace/tnwb-web:v1.0.6
+    container_name: tnwb-web-dev
+    restart: always
+    ports:
+      - 5001:3000
+      
