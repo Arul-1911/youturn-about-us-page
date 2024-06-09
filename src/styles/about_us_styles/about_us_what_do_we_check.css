@@ -111,7 +111,13 @@
   .stay_connect_mobile_heading {
     text-align: center;
     margin: 30px;
+    margin-top: 10px;
   }
+
+    .stay_connect_item > p {
+      margin-top: 10px;
+    }
+
 }
 
 /* tablet media query */
@@ -140,3 +146,5 @@
     padding: 6px;
   }
 }
+
+
