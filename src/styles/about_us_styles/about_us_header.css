@@ -58,7 +58,8 @@
     text-wrap: wrap;
     height: auto;
     width: auto;
-    font-size: 18px;
+    font-size: 15px;
+    line-height: 0.7cm;
   }
 
 }
