@@ -74,8 +74,15 @@
   }
 
   .about_us_our_mission_logo_description {
-    padding: 16px;
-    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: -90px;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
   }
 
   .about_us_our_mission_youturn_logo {
@@ -90,13 +97,16 @@
 
   .about_us_our_mission_second_column_header{
     padding-left: 10px;
+    font-size: 30px;
   }
 
-  .about_us_our_mission_second_column_paragraph{
-    text-wrap: wrap;
-    width: auto;
-    padding: 14px;
-  }
+   .about_us_our_mission_second_column_paragraph {
+        text-wrap: wrap;
+        width: auto;
+        padding: 13px;
+        font-size: 14px;
+        line-height: 0.7cm;
+    }
 }
 
 
@@ -128,6 +138,7 @@
   .about_us_our_mission_second_column_header{
     padding-left: 15px;
   }
+  
 
 }
 
