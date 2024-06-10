@@ -69,6 +69,10 @@
     text-wrap: wrap;
   }
 
+  .carry_out_card_1_image_1,.carry_out_card_1_image_2{
+    width: 100px;
+  }
+
   .carry_out_card_1_image, .carry_out_card_2_image{
     display: flex;
     justify-content: center;

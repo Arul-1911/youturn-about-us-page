@@ -34,7 +34,7 @@ function About_us_carry_out() {
           {/* card2 */}
           <div className="about_us_carry_out_card_2">
             <div className="carry_out_card_2_image">
-              <img src={DATA_JOURNAL} />
+              <img src={DATA_JOURNAL} className="carry_out_card_1_image_2" />
             </div>
             <div className="carry_out_card_2_desc">
               <div className="card_2_desc_title">Data Journalism</div>
