@@ -98,20 +98,19 @@
   width: 25%;
 }
 
-.about_us_column_3_container_mobile{
+.about_us_column_3_container_mobile {
   display: none;
 }
 
-.about_us_column_3_container_footer{
+.about_us_column_3_container_footer {
   margin-top: 70px;
 }
 
 /* media query mobile */
 
 @media screen and (max-width: 767px) {
-
-  .about_us_meet_the_team_container{
-    padding-bottom:35px;
+  .about_us_meet_the_team_container {
+    padding-bottom: 35px;
   }
 
   .about_us_meet_the_team_header {
@@ -150,7 +149,6 @@
     margin-top: 50px;
   }
 
-
   .profile_pic > img {
     width: 150px;
   }
@@ -158,18 +156,17 @@
     width: auto;
   }
 
-  .about_us_meet_the_medical_team_members, .about_us_medical_team_members{
+  .about_us_meet_the_medical_team_members,
+  .about_us_medical_team_members {
     display: none;
   }
 
-  .about_us_column_3_container_mobile{
+  .about_us_column_3_container_mobile {
     display: flex;
     flex-direction: column;
     background: linear-gradient(115deg, #140f2d 10.75%, #f49d36 348.16%);
     margin-top: 25px;
   }
-
-
 }
 
 /* tablet media query */
@@ -226,38 +223,49 @@
     font-size: 20px;
   }
 
-  .about_us_meet_the_medical_team_members_card_container{
+  .about_us_meet_the_medical_team_members_card_container {
     margin: 0;
   }
 
-  .about_us_medical_team_members{
+  .about_us_medical_team_members {
     margin: 0;
     margin-left: 29px;
     margin-bottom: 10px;
     font-size: 25px;
   }
 
-   .about_us_column_3_container_mobile{
+  .about_us_column_3_container_mobile {
     display: flex;
     flex-direction: column;
     background: linear-gradient(115deg, #140f2d 10.75%, #f49d36 348.16%);
     margin-top: 25px;
   }
 
-  .about_us_column_3_container_middle_mobile{
-   align-items: center;
-   justify-content: center;
+  .about_us_column_3_container_middle_mobile {
+    align-items: center;
+    justify-content: center;
   }
-
-
 }
 
+/*small laptop view */
 
-/* laptop view */
-
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
   .about_us_column_3_container_mobile {
     display: none;
   }
+
+  .about_us_meet_the_team_description {
+    width: 60%;
+    padding: 14px;
+    font-size: 15px;
+  }
+
+  .about_us_meet_the_team_header{
+    flex-direction: row;
+  }
+
+   .about_us_meet_the_team_heading {
+        font-size: 35px;
+    }
 
 }
