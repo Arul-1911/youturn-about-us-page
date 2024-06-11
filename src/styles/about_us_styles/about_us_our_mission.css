@@ -175,3 +175,13 @@
 }
 
 }
+
+
+/* 4k screen */
+
+@media only screen and (min-width: 2560px) {
+    .about_us_our_mission_container{
+      padding-top: 90px;
+      justify-content: center;
+    }
+}

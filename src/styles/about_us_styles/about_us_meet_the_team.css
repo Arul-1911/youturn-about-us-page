@@ -205,7 +205,7 @@
 
   .member_details {
     width: 100px;
-    height: 30px;
+    height: 37px;
     margin-left: 15px;
     margin-top: 20px;
   }
@@ -217,7 +217,8 @@
   }
 
   .member_position {
-    display: none;
+    font-size: 6px;
+    line-height: 0.3cm;
   }
 
   .about_us_meet_the_team_heading {

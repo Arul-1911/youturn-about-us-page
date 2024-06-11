@@ -462,3 +462,13 @@
     font-size: 12px;
   }
 }
+
+/* 
+4k big screen */
+
+@media only screen and (min-width: 2560px) {
+  .about_us_ifcn_certifed_column_1 {
+    margin-left: 48px;
+    width: 21%;
+  }
+}
