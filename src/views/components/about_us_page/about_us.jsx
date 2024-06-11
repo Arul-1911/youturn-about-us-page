@@ -23,7 +23,7 @@ function About_us() {
     <About_us_fact_check_category/>
     <About_us_funding_section/>
     <About_us_awards_recognition/>
-    {/* <About_us_pc_awards_couresel/> */}
+    <About_us_pc_awards_couresel/>
     </div>
   )
 }

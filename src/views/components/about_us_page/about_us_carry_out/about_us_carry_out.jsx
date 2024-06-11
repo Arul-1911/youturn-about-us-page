@@ -12,6 +12,7 @@ function About_us_carry_out() {
         {/*cards conatainer */}
         <div className="about_us_carry_out_cards_container">
           {/* card1 */}
+          
           <div className="about_us_carry_out_card_1">
             <div className="carry_out_card_1_image">
               <img

@@ -20,72 +20,7 @@ function About_us_awards_recognition() {
 
 
   return (
-    <>
-      {/* pc display container */}
-      <div className="about_us_awards_recognition_container">
-        {/* top container */}
-        <div className="about_us_awards_recognition_top_section">
-          <div className="about_us_awards_recognition_top_section_left_column">
-            <h1 className="about_us_awards_recognition_top_section_left_column_title">
-              Awards and recognition
-            </h1>
-            <p className="about_us_awards_recognition_top_section_left_column_sub-title">
-              BBC News Tamil | November 2018
-            </p>
-            <p className="about_us_awards_recognition_top_section_left_column_desc">
-              “ போலிச் செய்திகள் பரவுவது தொடர்பாக இந்தியாவில் கவலை
-              அதிகமாகியுள்ளது. வதந்திகளையும், போலிச் செய்திகளையும் தடுப்பதை
-              நோக்கமாக கொண்டு, சில பத்திரிகையாளர்கள் சேவைகளை தொடங்கியுள்ளனர்.
-              அத்தகைய நோக்கத்தில் தமிழ் இளைஞர்கள் சிலரின் முயற்சியை விளக்கும்
-              காணொளி. ” <br />
-            </p>
-            <p className="about_us_awards_recognition_continue_reading">
-              Continue Reading {">"}
-            </p>
-          </div>
-
-          <div className="about_us_awards_recognition_top_section_right_column">
-            <div className="about_us_awards_recognition_top_section_right_column_img">
-              <img src={BBC_APPRECIATION_IMG} />
-            </div>
-            <div className="about_us_awards_recognition_top_section_right_column_img_text_container">
-              <img
-                className="about_us_awards_recognition_top_section_right_column_img_text_logo"
-                src={BBC_IMG_TEXT_LOGO}
-              />
-
-              <div className="about_us_awards_recognition_top_section_right_column_img_text_logo_desc">
-                BBC Tamil appreciated our efforts against Fake News in this 2018
-                Interview
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* middle container */}
-        {/* <div className="about_us_awards_recognition_middle_section">
-          <div className="about_us_awards_recognition_middle_section_card">
-            {hindu_meme_data.map((meme, index) => (
-              <img src={meme.picture} key={index} className="meme_image" />
-            ))}
-          </div>
-        </div> */}
-
-        {/* footer container */}
-        <div className="about_us_awards_recognition_footer_section">
-          <div className="about_us_awards_recognition_footer_section_title">
-            <p>Join us today</p>
-          </div>
-          <div className="about_us_awards_recognition_footer_section_sub_title">
-            <p>Support free and independent journalism</p>
-          </div>
-          <div className="about_us_awards_recognition_footer_section_member_btn">
-            <button>Become a Member</button>
-          </div>
-        </div>
-      </div>
-
-      
+    <> 
       {/* mobile display couresel */}
       <div className="award_list_container_mob">
         <div className="award_list_div">

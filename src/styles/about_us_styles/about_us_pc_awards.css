@@ -1,0 +1,84 @@
+.award_list_container {
+  padding: 30px 50px 30px 50px;
+  background: linear-gradient(115deg, #111a42 10%, #f49d36 280%);
+  color: white;
+  margin-top: 50px;
+}
+
+.award_list_div {
+  display: flex;
+  gap: 30px;
+}
+.award_list_one {
+  width: 50%;
+}
+.award_list_two {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.award_list_two_img {
+  height: 26vh;
+}
+.award_list_one_description {
+  font-size: 18px;
+  font-family: "Lato";
+}
+.award_list_one_content {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.award_list_one_link {
+  color: white;
+}
+.award_list_item_container {
+  display: flex;
+  margin: 40px 0;
+  overflow: scroll;
+  /* overflow-y: hidden; */
+  /* overflow-x: hidden; */
+}
+.award_list_item_container::-webkit-scrollbar {
+  display: none;
+}
+.award_list_image {
+  width: 270px;
+}
+
+.become_a_member_div {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.become_a_member_heading {
+  font-family: "lato";
+  font-weight: 400;
+  font-size: 24px;
+}
+.become_a_member_description {
+  font-family: "lato";
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+.become_a_member_button {
+  width: 20%;
+  height: 35px;
+  border-radius: 8px;
+  background-color: #0065cd;
+  color: white;
+  border: none;
+}
+
+
+
+/* mobile media query */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+   .award_list_container{
+      display: none;
+   }
+}

@@ -1,133 +1,11 @@
-.about_us_awards_recognition_container {
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(115deg, #140f2d 44.57%, #f49d36 348.16%);
-  margin-top: 145px;
-  flex-wrap: wrap;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.about_us_awards_recognition_top_section {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  align-items: center;
-  justify-content: center;
-}
-
-.about_us_awards_recognition_top_section_left_column {
-  /* border: 2px solid greenyellow; */
-  padding: 20px;
-  width: 550px;
-}
-
-.about_us_awards_recognition_top_section_right_column {
-  /* border: 2px solid blue; */
-  width: 550px;
-  margin-top: 45px;
-  margin-left: 150px;
-}
-
-.about_us_awards_recognition_top_section_right_column_img > img {
-  width: 500px;
-}
-
-.about_us_awards_recognition_top_section_left_column_sub-title {
-  margin-top: 35px;
-}
-
-.about_us_awards_recognition_top_section_left_column_desc {
-  margin-top: 30px;
-}
-.about_us_awards_recognition_continue_reading {
-  text-decoration: underline;
-}
-
-.about_us_awards_recognition_top_section_right_column_img_text_logo {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-}
-
-.about_us_awards_recognition_top_section_right_column_img_text_container {
-  display: flex;
-  position: relative;
-  top: -80px;
-  background: #0065cc;
-  color: white;
-  width: 320px;
-  height: 50px;
-  margin-left: 181px;
-  padding: 5px;
-  text-wrap: wrap;
-  font-size: 12px;
-}
-
-.about_us_awards_recognition_middle_section {
-  display: flex;
-}
-
-.about_us_awards_recognition_footer_section {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 25px;
-  color: white;
-  flex-wrap: wrap;
-}
-
-.about_us_awards_recognition_footer_section_title {
-  font-family: "Lato";
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 38.4px;
-  text-align: center;
-}
-
-.about_us_awards_recognition_footer_section_sub_title {
-  font-family: "Kufam";
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 62.4px;
-  text-align: left;
-}
-
-.about_us_awards_recognition_footer_section_member_btn {
-  margin-bottom: 10px;
-}
-
-.about_us_awards_recognition_footer_section_member_btn > button {
-  width: 332px;
-  height: 40px;
-  gap: 0px;
-  border-radius: 10px;
-  opacity: 0px;
-  background: #0065cd;
-  color: white;
-  border: none;
-}
-
-.award_list_container_mob {
+.award_list_container_mob{
   display: none;
-}
-
-.award_list_image {
-  width: 270px;
 }
 
 /* media query mobile */
 
 @media screen and (max-width: 767px) {
-  .about_us_awards_recognition_container {
-    display: none;
-  }
-
-  .about_us_pc_corousel {
-    display: none;
-  }
-
+ 
   .about_us_awards_recognition_container {
     margin-top: -90px;
   }
@@ -216,6 +94,12 @@
     color: white;
     border: none;
   }
+
+  .become_a_member_button{
+    text-wrap: wrap;
+    height: auto;
+    border: #0065cd;
+  }
 }
 
 /* tablet media query */
@@ -228,28 +112,27 @@
     margin-top: 0px;
   }
 
-  .about_us_column_3_input_mobile_input{
+  .about_us_column_3_input_mobile_input {
     width: 448px;
   }
 
-  .about_us_column_3_container_middle_mobile_desc{
-    font-family: 'Kufam';
-font-size: 16px;
-font-weight: 700;
-line-height: 16.33px;
-text-align: left;
-
+  .about_us_column_3_container_middle_mobile_desc {
+    font-family: "Kufam";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16.33px;
+    text-align: left;
   }
 
-      .about_us_column_3_container_footer_note {
-        display: flex;
-        align-items: center;
-        font-size: 14px;
-        padding-top: 20px;
-        width: auto;
-        font-weight: 200;
-        font-family: 'Lato';
-    }
+  .about_us_column_3_container_footer_note {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding-top: 20px;
+    width: auto;
+    font-weight: 200;
+    font-family: "Lato";
+  }
 
   .about_us_awards_recognition_top_section {
     display: flex;
@@ -278,15 +161,14 @@ text-align: left;
     width: 400px;
   }
 
-  .about_us_awards_recognition_top_section_right_column_img_text_container {
+  /* .about_us_awards_recognition_top_section_right_column_img_text_container {
     display: none;
-  }
+  } */
 }
 
 /* laptop small screen */
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-
   .about_us_awards_recognition_top_section_right_column_img > img {
     width: 407px;
     margin-right: 100px;
@@ -297,18 +179,17 @@ text-align: left;
     padding: 20px;
     width: 550px;
     margin-left: 50px;
-}
+  }
 
   .about_us_awards_recognition_top_section_right_column {
     /* border: 2px solid blue; */
     width: 247px;
     margin-top: 45px;
-}
-
-  .about_us_awards_recognition_top_section_right_column_img{
-    margin-right: 425px;
   }
 
+  .about_us_awards_recognition_top_section_right_column_img {
+    margin-right: 425px;
+  }
 }
 
 /* 4k large screen */
@@ -337,7 +218,7 @@ text-align: left;
     color: white;
     justify-content: space-evenly;
   }
-
+award_list_container_mob
   .about_us_awards_recognition_footer_section {
     display: flex;
     flex-direction: column;
