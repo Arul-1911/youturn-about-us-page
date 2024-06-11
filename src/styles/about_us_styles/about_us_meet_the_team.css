@@ -2,6 +2,7 @@
   background: linear-gradient(115deg, #140f2d 10.75%, #f49d36 348.16%);
   margin-top: 25px;
   color: white;
+  padding: 11px;
 }
 
 .about_us_meet_the_team_header {
@@ -106,6 +107,49 @@
   margin-top: 70px;
 }
 
+/* member details card */
+
+.about_us_selected_member_details{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid  #F49D36;
+  border-radius: 9px;
+  margin: 20px 50px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.about_us_selected_medical_member_details{
+   display: flex;
+  flex-direction: row;
+  border: 1px solid  #F49D36;
+  border-radius: 9px;
+  margin: 0px 50px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.selected_members_left_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.member_links{
+  margin-top: 15px;
+}
+
+.member_details_description_container{
+  margin-top: 17px;
+}
+
+.member_links_heading{
+  padding-bottom: 15px;
+}
+
+
+
+
 /* media query mobile */
 
 @media screen and (max-width: 767px) {
@@ -167,6 +211,36 @@
     flex-direction: column;
     background: linear-gradient(115deg, #140f2d 10.75%, #f49d36 348.16%);
     margin-top: 25px;
+  }
+
+  .about_us_selected_medical_member_details{
+    display: none;
+  }
+
+  .about_us_selected_member_details{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding:10px 15px;
+    margin: 20px 10px;
+    width: auto;
+  }
+
+  .members_img_right_container_img{
+    width: 155px;
+  }
+
+  .member_links{
+    display: none;
+  }
+
+  .selected_member_details_heading{
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .selected_member_description{
+    font-size: 13px;
+    margin: 4px;
   }
 }
 
@@ -247,6 +321,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  /* .about_us_selected_medical_member_details{
+    display: none;
+  } */
 }
 
 /*small laptop view */
@@ -262,12 +340,11 @@
     font-size: 15px;
   }
 
-  .about_us_meet_the_team_header{
+  .about_us_meet_the_team_header {
     flex-direction: row;
   }
 
-   .about_us_meet_the_team_heading {
-        font-size: 35px;
-    }
-
+  .about_us_meet_the_team_heading {
+    font-size: 35px;
+  }
 }

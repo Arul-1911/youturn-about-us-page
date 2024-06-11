@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import "../../../../styles/about_us_styles/about_us_meet_the_team.css";
 import {
-  peopleData,
-  medical_members_data,
+  expand_team_members_data,
+  medical_team_members_data,
 } from "../about_us_meet_the_team/about_us_team_data/people_data.js";
 
 function About_us_meet_the_team() {
+  const [selectedMember, setSelectedMember] = useState(null);
+  const [selectedMedicalMember, setSelectedMedicalMember] = useState(null);
+
+  const handleMemberClick = (member) => {
+    setSelectedMember((prevMember) => (prevMember === member ? null : member));
+  };
+
+  const handleMedicalMemberClick = (member) => {
+    setSelectedMedicalMember((prevMember) =>
+      prevMember === member ? null : member
+    );
+  };
+
   return (
     <div>
       <div className="about_us_meet_the_team_container">
@@ -36,31 +49,84 @@ function About_us_meet_the_team() {
 
         <div className="about_us_meet_the_team_members">
           <div className="about_us_meet_the_team_members_card_container">
-            {peopleData.map((person, index) => (
-              <div className="about_us_meet_the_team_members_card" key={index}>
+            {expand_team_members_data.map((person, index) => (
+              <div
+                className="about_us_meet_the_team_members_card"
+                key={index}
+                onClick={() => handleMemberClick(person)}
+              >
                 <div className="profile_pic">
-                  <img src={person.picture} alt={person.name} />
+                  <img src={person.image_url} alt={person.name} />
                 </div>
                 <div className="member_details">
                   <div className="member_name">{person.name}</div>
-                  <div className="member_position">{person.destination}</div>
+                  <div className="member_position">{person.position}</div>
                 </div>
               </div>
             ))}
           </div>
         </div>
+
+        {/* members details card meet the team */}
+
+        {selectedMember && (
+          <div className="about_us_selected_member_details">
+            <div className="selected_members_left_container">
+              <div className="member_details_heading_container">
+                <h3 className="selected_member_details_heading">
+                  {selectedMember.name} || {selectedMember.position}
+                </h3>
+              </div>
+
+              <div className="member_details_description_container">
+                <p className="selected_member_description">
+                  {selectedMember.description}
+                </p>
+              </div>
+
+              {selectedMember.links && (
+                <div className="member_links">
+                  <h3 className="member_links_heading">social media</h3>
+                  {selectedMember.links.map((link, index) => (
+                    <a
+                      key={index}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={link.logo}
+                        alt={link.type}
+                        className="social_media_logo"
+                      />
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className="members_img_right_container">
+              <img
+                src={selectedMember.image_url}
+                alt={selectedMember.name}
+                className="members_img_right_container_img"
+              />
+            </div>
+          </div>
+        )}
 
         <p className="about_us_medical_team_members">Medical Experts</p>
 
         <div className="about_us_meet_the_medical_team_members">
           <div className="about_us_meet_the_medical_team_members_card_container">
-            {medical_members_data.map((person, index) => (
+            {medical_team_members_data.map((person, index) => (
               <div
                 className="about_us_meet_the_medical_team_members_card"
                 key={index}
+                onClick={() => handleMedicalMemberClick(person)}
               >
                 <div className="profile_pic">
-                  <img src={person.picture} alt={person.name} />
+                  <img src={person.image_url} alt={person.name} />
                 </div>
                 <div className="member_details">
                   <div className="member_name">{person.name}</div>
@@ -70,6 +136,54 @@ function About_us_meet_the_team() {
             ))}
           </div>
         </div>
+
+        {/* medical team members data */}
+
+        {selectedMedicalMember && (
+          <div className="about_us_selected_medical_member_details">
+            <div className="selected_members_left_container">
+              <div className="member_details_heading_container">
+                <h3 className="selected_member_details_heading">
+                  {selectedMedicalMember.name} ||{" "}
+                  {selectedMedicalMember.position}
+                </h3>
+              </div>
+
+              <div className="member_details_description_container">
+                <p className="selected_member_description">
+                  {selectedMedicalMember.description}
+                </p>
+              </div>
+
+              {selectedMedicalMember.links && (
+                <div className="member_links">
+                  <h3 className="member_links_heading">social media</h3>
+                  {selectedMedicalMember.links.map((link, index) => (
+                    <a
+                      key={index}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={link.logo}
+                        alt={link.type}
+                        className="social_media_logo"
+                      />
+                    </a>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className="members_img_right_container">
+              <img
+                src={selectedMedicalMember.image_url}
+                alt={selectedMedicalMember.name}
+              />
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
