@@ -65,12 +65,13 @@
   text-align: center;
 }
 .become_a_member_button {
-  width: 20%;
-  height: 35px;
+  width: auto;
+  height: auto;
   border-radius: 8px;
   background-color: #0065cd;
   color: white;
   border: none;
+  padding: 8px;
 }
 
 

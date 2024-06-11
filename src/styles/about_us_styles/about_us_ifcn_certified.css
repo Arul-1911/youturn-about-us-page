@@ -270,7 +270,7 @@
     padding-top: 20px;
   }
 
-   .column_3_btn_text {
+  .column_3_btn_text {
     border: none;
     height: 40px;
     width: 125px;
@@ -279,18 +279,16 @@
   .about_us_column_3_container_footer_note > p {
     font-size: 11px;
     width: 140px;
-    font-family: 'Lato';
+    font-family: "Lato";
   }
 
-  .about_us_column_3_container_footer_button{
+  .about_us_column_3_container_footer_button {
     width: auto;
   }
 
-  .about_us_column_3_container_footer{
+  .about_us_column_3_container_footer {
     margin-bottom: 25px;
   }
-
-
 }
 
 /* tablet media query */
@@ -395,71 +393,66 @@
     height: 50px;
   }
 
-  .about_us_column_3_container_footer_button{
+  .about_us_column_3_container_footer_button {
     margin: 30px;
-    height:40px;
+    height: 40px;
   }
 
-  .about_us_column_3_container_footer_note{
+  .about_us_column_3_container_footer_note {
     display: flex;
-    align-items:center;
+    align-items: center;
     font-size: 14px;
     width: auto;
   }
-
-
 }
-
 
 /* laptop small screen */
 
-
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .about_us_ifcn_certfied_image{
+  .about_us_ifcn_certfied_image {
     width: 300px;
   }
 
-  .about_us_ifcn_certifed_column_2{
+  .about_us_ifcn_certifed_column_2 {
     width: 300px;
   }
 
-  .about_us_ifcn_description{
+  .about_us_ifcn_description {
     text-wrap: wrap;
     font-size: 15px;
     line-height: 0.6cm;
   }
 
-
-  .about_us_ifcn_certifed_column_3{
+  .about_us_ifcn_certifed_column_3 {
     width: 300px;
     height: 350px;
   }
 
-  .about_us_column_3_container_title > p{
+  .about_us_column_3_container_title > p {
     font-size: 10px;
   }
 
-  .about_us_middle_hash{
+  .about_us_middle_hash {
     margin-bottom: 20px;
   }
 
   .about_us_column_3_conatainer_middle_2 > span {
-          font-size: 17px;
+    font-size: 17px;
   }
 
   .about_us_column_3_conatainer_middle_1 > span {
     font-size: 46px;
   }
 
-  .about_us_column_3_container_middle{
+  .about_us_column_3_container_middle {
     align-items: center;
   }
 
-  .about_us_column_3_container_footer{
+  .about_us_column_3_container_footer {
     margin-top: 18px;
   }
 
-  .column_3_btn_text{
+  .column_3_btn_text {
     width: 90px;
     height: 50px;
     font-size: 12px;
@@ -468,5 +461,4 @@
   .about_us_column_3_container_footer_note > p {
     font-size: 12px;
   }
-
 }
