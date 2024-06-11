@@ -25,9 +25,9 @@ function About_us_awards_recognition() {
       <div className="award_list_container_mob">
         <div className="award_list_div">
           <div className="award_list_one">
-            {/* <p className="medical_expert_heading">
+            <h2 className="medical_expert_heading">
               You Turn: Awards and recognition
-            </p> */}
+            </h2>
           </div>
         </div>
         <Carousel

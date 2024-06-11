@@ -100,6 +100,24 @@
     height: auto;
     border: #0065cd;
   }
+
+  .award_list_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-wrap: wrap;
+  }
+
+  .medical_expert_heading{
+    font-family:'Kufam';
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+
 }
 
 /* tablet media query */
