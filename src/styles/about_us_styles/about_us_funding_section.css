@@ -150,6 +150,7 @@
   opacity: 0px;
   background: #ffffff;
   border: none;
+  padding: 9px;
 }
 
 .about_us_funding_box_amount_input > ::placeholder {

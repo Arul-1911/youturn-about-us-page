@@ -133,8 +133,9 @@
   }
 
   .about_us_meet_the_team_members {
-    overflow: hidden;
-    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
   }
 
   .member_details {
