@@ -20,7 +20,7 @@
   }
   .award_list_two_mob {
     position: relative;
-    width: 80%;
+    width: auto;
     margin: 15px 0;
     box-shadow: 2px 2px 15px 1px white;
     overflow: hidden;
