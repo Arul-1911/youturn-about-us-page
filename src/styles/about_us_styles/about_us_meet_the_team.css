@@ -137,6 +137,10 @@
     overflow: scroll;
   }
 
+  .team_members_image::-webkit-scrollbar {
+  display: none;
+}
+
   .team_member_description {
     display: none;
   }

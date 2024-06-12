@@ -8,6 +8,7 @@
 .award_list_div {
   display: flex;
   gap: 30px;
+  margin-bottom: 45px;
 }
 .award_list_one {
   width: 50%;
