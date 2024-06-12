@@ -129,7 +129,7 @@ function About_us_ifcn_certified() {
 
       {/* column 3 mobile view  */}
 
-      {/* <div className="about_us_ifcn_certifed_column_3_mobile"> */}
+   
       <div className="about_us_column_3_container_mobile">
         <div className="about_us_column_3_container_middle">
           <div className="about_us_column_3_conatainer_middle_1">
@@ -173,7 +173,7 @@ function About_us_ifcn_certified() {
           </div>
         </div>
       </div>
-      {/* </div> */}
+      
     </>
   );
 }

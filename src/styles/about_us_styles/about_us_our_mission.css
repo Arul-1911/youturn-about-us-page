@@ -6,7 +6,6 @@
   gap: 40px;
 }
 
-
 .about_us_our_mission_first_row {
   display: flex;
   align-items: center;
@@ -29,14 +28,13 @@
   color: #0065cc;
 }
 
-.about_us_our_mission_first_column{
+.about_us_our_mission_first_column {
   padding: 0px 20px;
 }
 
 .about_us_our_mission_second_column {
   display: flex;
   flex-direction: column;
-  
 }
 
 .about_us_our_mission_second_column_header {
@@ -49,12 +47,12 @@
 
 .about_us_our_mission_second_column_paragraph {
   margin-top: 20px;
-  padding-right:15px ;
+  padding-right: 15px;
   font-family: "Lato";
   font-weight: 400;
   font-size: 20px;
   line-height: 36px;
- height: auto;
+  height: auto;
 }
 
 /* media query mobile */
@@ -91,97 +89,99 @@
     margin-bottom: 20px;
   }
 
-  .about_us_our_mission_second_column{
+  .about_us_our_mission_second_column {
     justify-content: center;
+    padding: 13px;
   }
 
-  .about_us_our_mission_second_column_header{
+  .about_us_our_mission_second_column_header {
     padding-left: 10px;
     font-size: 30px;
   }
 
-   .about_us_our_mission_second_column_paragraph {
-        text-wrap: wrap;
-        width: auto;
-        padding: 13px;
-        font-size: 14px;
-        line-height: 0.7cm;
-    }
+  .about_us_our_mission_second_column_paragraph {
+    text-wrap: wrap;
+    width: auto;
+    padding: 13px;
+    font-size: 14px;
+    line-height: 0.7cm;
+  }
 }
-
 
 /* media query tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-
-  .about_us_our_mission_container{
+  .about_us_our_mission_container {
     gap: 15px;
     flex-direction: column;
+    height: auto;
   }
 
-  .about_us_our_mission_youturn_logo{
+  .about_us_our_mission_youturn_logo {
     width: 400px;
     height: 250px;
     object-fit: contain;
     margin-top: -40px;
   }
 
-  .about_us_our_mission_second_column_paragraph{
+  .about_us_our_mission_second_column_paragraph {
     text-wrap: wrap;
     padding: 20px;
   }
 
-  .about_us_our_mission_logo_description{
+  .about_us_our_mission_logo_description {
     margin-top: -50px;
   }
 
-  .about_us_our_mission_second_column_header{
+  .about_us_our_mission_second_column_header {
     padding-left: 15px;
   }
-  
-
 }
-
 
 /* laptop small view */
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-
-  .about_us_our_mission_container{
-    margin-top: 25px;
+  .about_us_our_mission_container {
+    /* margin-top: 25px; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: -110px;
+    /* margin-bottom: -110px; */
+    height: auto;
   }
 
   .about_us_our_mission_second_column {
     display: flex;
     flex-direction: column;
     margin-top: 45px;
+  }
+
+  .about_us_our_mission_logo_description {
+    font-size: 12px;
+  }
+
+  .about_us_our_mission_second_column_paragraph {
+    font-size: 15px;
+    width: 400px;
+  }
+
+  .about_us_our_mission_second_column_header {
+    font-size: 39px;
+  }
 }
-
-       .about_us_our_mission_logo_description {
-        font-size: 12px;
-    }
-
-.about_us_our_mission_second_column_paragraph{
-  font-size: 15px;
-  width: 400px;
-}
-
-.about_us_our_mission_second_column_header{
-  font-size: 39px;
-}
-
-}
-
 
 /* 4k screen */
 
 @media only screen and (min-width: 2560px) {
-    .about_us_our_mission_container{
-      padding-top: 90px;
-      justify-content: center;
-    }
+  .about_us_our_mission_container {
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    padding: 10px;
+  }
+
+  .about_us_our_mission_second_column_paragraph{
+    font-size: 30px;
+  }
+
 }

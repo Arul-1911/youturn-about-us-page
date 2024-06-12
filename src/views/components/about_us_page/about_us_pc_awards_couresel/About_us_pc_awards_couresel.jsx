@@ -9,7 +9,7 @@ function About_us_pc_awards_couresel() {
     <div className="award_list_container">
       <div className="award_list_div">
         <div className="award_list_one">
-          <p className="medical_expert_heading">Awards and recognition</p>
+          <h2 className="awards_heading">Awards and recognition</h2>
           <p className="award_list_one_description">
             BBC News Tamil | November 2018
           </p>

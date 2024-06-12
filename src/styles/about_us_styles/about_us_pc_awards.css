@@ -74,12 +74,37 @@
   padding: 8px;
 }
 
-
-
 /* mobile media query */
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-   .award_list_container{
-      display: none;
-   }
+  .award_list_container {
+    display: none;
+  }
+}
+
+/* tablet media query */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .award_list_container {
+    margin-top: 0px;
+  }
+}
+
+/* 4k large screen */
+
+@media only screen and (min-width: 2560px) {
+
+  .award_list_one_description {
+    font-size: 40px;
+  }
+
+  .award_list_one_content {
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+.award_list_one_link{
+  font-size: 25px;
+}
+
 }

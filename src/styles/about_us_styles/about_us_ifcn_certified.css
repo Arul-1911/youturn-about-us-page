@@ -168,6 +168,10 @@
   display: none;
 }
 
+.about_us_column_3_container_mobile {
+  display: none;
+}
+
 /* media query mobile */
 
 @media screen and (max-width: 768px) {
@@ -268,6 +272,7 @@
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    background: linear-gradient(104.29deg, #140f2d 41.31%, #f49d36 218.62%);
   }
 
   .column_3_btn_text {
@@ -288,6 +293,10 @@
 
   .about_us_column_3_container_footer {
     margin-bottom: 25px;
+  }
+
+  .about_us_ifcn_polices_container {
+    margin-bottom: 35px;
   }
 }
 
@@ -386,6 +395,8 @@
     flex-direction: column;
     padding-top: 20px;
     align-items: center;
+    background: linear-gradient(104.29deg, #140f2d 41.31%, #f49d36 218.62%);
+    margin-top: 31px;
   }
 
   .column_3_btn_text {

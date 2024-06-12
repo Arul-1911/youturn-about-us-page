@@ -2,6 +2,14 @@
   display: none;
 }
 
+.medical_expert_heading{
+  padding-left: 0px;
+}
+
+.awards_heading{
+  margin-bottom: 20px;
+}
+
 /* media query mobile */
 
 @media screen and (max-width: 767px) {
@@ -112,9 +120,11 @@
   }
 
   .medical_expert_heading{
+    width: 100%;
     font-family:'Kufam';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 19px;
+    margin-left: 0px;
   }
 
 
@@ -236,7 +246,7 @@
     color: white;
     justify-content: space-evenly;
   }
-award_list_container_mob
+
   .about_us_awards_recognition_footer_section {
     display: flex;
     flex-direction: column;
@@ -247,4 +257,9 @@ award_list_container_mob
     flex-wrap: wrap;
     margin-bottom: 30px;
   }
+
+  .awards_heading{
+    font-size: 50px;
+  }
+
 }
