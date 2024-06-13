@@ -138,8 +138,8 @@
   }
 
   .team_members_image::-webkit-scrollbar {
-  display: none;
-}
+    display: none;
+  }
 
   .team_member_description {
     display: none;
@@ -216,7 +216,7 @@
     display: none;
   }
 
-  .meet_the_team_head{
+  .meet_the_team_head {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -227,15 +227,14 @@
     width: 100%;
     font-size: 20px;
     font-family: "Lato";
-}
+  }
 
-.meet_the_team_heading > p {
-  font-size: 20px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-}
-
+  .meet_the_team_heading > p {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 /* 4k large screen */

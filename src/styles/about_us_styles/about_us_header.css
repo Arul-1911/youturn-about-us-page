@@ -1,8 +1,10 @@
 .about_us_header_container {
   background-color: #140f2d;
-  height: 400px;
+  /* height: 400px; */
+  height: auto;
   color: white;
   padding-left: 50px;
+  padding-bottom: 30px;
 }
 
 .about_us_header_title_location {
@@ -35,7 +37,6 @@
   text-decoration: underline;
 }
 
-
 /* media query mobile */
 
 @media screen and (max-width: 767px) {
@@ -47,51 +48,76 @@
     height: auto;
     padding-left: 20px;
     padding-bottom: 25px;
-
   }
 
-  .about_us_header_title_location{
+  .about_us_header_title_location {
     display: none;
   }
 
-  .about_us_header_description{
+  .about_us_header_description {
     text-wrap: wrap;
     height: auto;
     width: auto;
     font-size: 15px;
     line-height: 0.7cm;
   }
-
 }
-
 
 /* media query tablet */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .about_us_header_container{
-      width: auto;
-      height: auto;
-      margin-top: -90px;
+  .about_us_header_container {
+    width: auto;
+    height: auto;
+    margin-top: -90px;
   }
 
-  .about_us_header_description{
+  .about_us_header_description {
     text-wrap: wrap;
     height: auto;
     width: auto;
     font-size: 20px;
-   padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 
+/* laptop small screen */
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .about_us_header_container {
+    width: auto;
+    text-wrap: wrap;
+  }
+
+  .about_us_header_description {
+    width: auto;
+    text-wrap: wrap;
+    height: auto;
+  }
+}
+
+/* laptop large screen */
+
+@media only screen and (min-width: 1440px) and (max-width: 2559px) {
+  .about_us_header_container {
+    width: auto;
+    text-wrap: wrap;
+    height: auto;
+  }
+
+  .about_us_header_description {
+    width: auto;
+    text-wrap: wrap;
+    height: auto;
+  }
+}
 
 /* media query 4k large screen */
 
 @media only screen and (min-width: 2560px) {
-
-  .about_us_header_description{
+  .about_us_header_description {
     width: auto;
     font-size: 35px;
     line-height: 1.2cm;
   }
-
 }

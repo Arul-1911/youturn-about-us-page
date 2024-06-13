@@ -124,6 +124,13 @@
     margin-top: -40px;
   }
 
+      .about_us_our_mission_logo_description {
+        margin-top: -50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
   .about_us_our_mission_second_column_paragraph {
     text-wrap: wrap;
     padding: 20px;
