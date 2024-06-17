@@ -3,16 +3,17 @@ import { createHttpLink } from "apollo-link-http";
 import { setContext } from "apollo-link-context";
 import { retrieve_item } from "@src/helpers/cryptos";
 
-const BASE_URL =
-  process.env.REACT_APP_API_BASE_URL ||
-  "https://dev.vertace.org/youturn/api/dev/graphql";
+const BASE_URL ='https://dev.vertace.org/matrimony/api/graphql';
+
 
 const httpLink = createHttpLink({
   uri: BASE_URL,
 });
 
 const authLink = setContext(async (_, { headers }) => {
-  const session_id = retrieve_item("session_id");
+  // const session_id = retrieve_item("session_id");
+  const session_id = "3f20f785-40c2-4521-abb3-1f93a59033f8";
+
 
   return {
     headers: {
